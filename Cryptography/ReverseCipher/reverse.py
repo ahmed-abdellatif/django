@@ -8,6 +8,7 @@ print("Good, You\'ve entered: ", userMessage)
 
 i = len(userMessage) - 1
 while i>= 0:
-	userMessageEncrypted = userMessageEncrypted + userMessage[i]
-	i = i - 1
+ userMessageEncrypted = userMessageEncrypted + userMessage[i]
+ i = i - 1
+
 print("Using Reverse Cipher Encryption, your message becomes: ", userMessageEncrypted)
